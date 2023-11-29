@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,600;0,700;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container {
+    width: 340px;
+    background: #FFF;
+    border-radius: 20px;
+}
+
+.hero {
+    width: 100%;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+}
+
+.info {
+    padding: 40px 30px;
+}
+
+.info h2{
+    font-weight: 900;
+    font-size: 22px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.info .text {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.plan-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.plan-container img {
+    width: 40px;
+}
+
+.plan-container h4{
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5px;
+}
+
+.plan-container p {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.plan a{
+    font-size: 14px;
+}
+
+.info .btn-blue{
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+}
+
+.btn-grey {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 10px;
+    color: grey;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
